@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sistema de Administracion de Condominios</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/ionicons.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+  
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+  <div class="  fontTitulo">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+     <div class="container">
+       <a class="navbar-brand" href="index.html">APPMINEC</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="oi oi-menu"></span> Menu
+       </button>
+
+       <div class="collapse navbar-collapse" id="ftco-nav">
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item active"><a href="index.html" class="nav-link">Inicio</a></li>
+           <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
+           <li class="nav-item"><a href="login.html" class="nav-link">Iniciar sesión </a></li>
+           <li class="nav-item"><a href="" class="nav-link">Registrarse</a></li>	 
+           <li class="nav-item"><a href="" class="nav-link">SUPERADMIN </a></li>         
+         </ul>
+       </div>
+     </div>
+   </nav>
+ </div>
+ <!-- END nav -->
+ <div class="hero">
+
+   <section class="home-slider owl-carousel">
+     <div class="slider-item" style="background-image:url(images/condominio.jpg);">
+      <div class="overlay"></div>
+      <div class="container">
+       <div class="row no-gutters slider-text align-items-center">
+         <div class="col-md-8 ftco-animate">
+          <div class="text mb-5 pb-5">
+            <h1 class="mb-3">Sistema de Administración de Condominio</h1>
+            <h2>Te ayudamos a mejorar tu organización dentro del edificio</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slider-item" style="background-image:url(images/resto.jpg);">
+    <div class="overlay"></div>
+    <div class="container">
+     <div class="row no-gutters slider-text align-items-center">
+       <div class="col-md-8 ftco-animate">
+        <div class="text mb-5 pb-5">
+          <h1 class="mb-3">Facilidades en tus cobros y pagos</h1>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+</div>
+
+<div >
+ <hr class="linea">
+
+</div>
+<div class="row">
+  <div class="col 2"></div>
+  <div class="col 8">
+    <hr class="linea">
+  </div>
+  <div class="col 2"></div>
+</div>
+
+<div></div>
+<div class="container ">
+
+
+  <div class="row ">
+    <div class="col 6 ">
+      <h3 class="navbar-brand">CARACTERÍSTICAS</h3>
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <strong>ADMINISTRATIVO</strong>
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+             <ul>
+               <li>Áreas Comunales</li>
+               <li>Registro de unidad Habitacional</li>
+               <li>manejo de parqueaderos</li>
+
+             </ul>
+           </div>
+         </div>
+       </div>
+       <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <strong>REPORTES</strong>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            <ul>
+             <li>Registro de cobros</li>
+             <li>Pagos retrasados</li>
+             <li>Registro de personal</li>
+             <li>Informe de usuarios</li>
+           </ul>
+         </div>
+       </div>
+     </div>
+     <div class="card">
+      <div class="card-header" id="headingThree">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <strong>COMUNICACIONES</strong> 
+          </button>
+        </h2>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+          <ul>
+            <li>Reuniones asistidas</li>
+            <li>Quejas y avisos</li>
+            <li>Mensajeria para cobros</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="col 6">
+ <h3  class="navbar-brand">Por que APPMINEC?</h3>
+
+ <div class="card" style="width: 18rem;">
+  <img src="images/finanzas.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Adiós auntes en papeles</h5>
+    <p class="card-text">Migra tu administracion a nuestra plataforma de administracion de edificios y asi lograras ahorrar tiempo y dinero.</p>
+    <a href="#" class="btn btn-primary ">Contratar Servicio</a>
+  </div>
+</div>
+</div>
+</div>
+
+<br>
+
+</div> <!-- fin container -->
+
+<div class="row">
+  <div class="col 2"></div>
+  <div class="col 8">
+    <div class="spinner-grow text-primary" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-secondary" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-success" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-danger" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-warning" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-info" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-light" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-dark" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+  </div>
+  <div class="col 2"></div>
+</div>
+<br>
+
+
+   <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">APPMINEC</h2>
+              <p>Sistema de adinistracion para condominios con gestion de Super administradores</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Conócenos mas:</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Blog</a></li>
+                <li><a href="#" class="py-2 d-block">Galeria</a></li>
+                <li><a href="#" class="py-2 d-block">Experiencias</a></li>
+               
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Menú</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Inicio</a></li>
+                <li><a href="#" class="py-2 d-block">Consultas</a></li>
+                <li><a href="#" class="py-2 d-block">Registro</a></li>
+                <li><a href="#" class="py-2 d-block">Servicios</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Mayor Información</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><span class="icon icon-map-marker"></span><span class="text">APPMINEC Av 12 de Octubre y Ventimilla</span></li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">appminec@gmail.com</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> todos los derechos reservados | propiedad de <i class="icon-heart color-danger" aria-hidden="true"></i>APPMINEC </a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<!-- // <script src="js/jquery.timepicker.min.js"></script> -->
+<script src="js/scrollax.min.js"></script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

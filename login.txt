@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login </title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+</head>
+<body>
+	
+<div class="  fontTitulo">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+     <div class="container">
+       <a class="navbar-brand" href="index.html">APPMINEC</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="oi oi-menu"></span> Menu
+       </button>
+
+       <div class="collapse navbar-collapse" id="ftco-nav">
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item active"><a href="index.html" class="nav-link">Inicio</a></li>
+           <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
+           <li class="nav-item"><a href="login.html" class="nav-link">Iniciar sesión </a></li>
+           <li class="nav-item"><a href="" class="nav-link">Registrarse</a></li>	 
+           <li class="nav-item"><a href="" class="nav-link">SUPERADMIN </a></li>         
+         </ul>
+       </div>
+     </div>
+   </nav>
+ </div>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-form-title" style="background-image: url(images/bg-01.jpg);">
+					<span class="login100-form-title-1">
+						LOGIN
+					</span>
+				</div>
+
+				<form class="login100-form validate-form">
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+						<strong><span class="label-input100">usuario</span></strong>
+						<input class="input100" type="text" name="username" placeholder="Ingrese su nombre de usuario">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
+						<strong><span class="label-input100">Contraseña</span></strong>
+						<input class="input100" type="password" name="pass" placeholder="Ingrese su clave">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="flex-sb-m w-full p-b-30">
+						<div class="contact100-form-checkbox">
+							<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+							
+						</div>
+
+						<div>
+							<a href="#" class="txt1">
+								Olvidó su contraseña?
+							</a>
+						</div>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Ingresar
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
